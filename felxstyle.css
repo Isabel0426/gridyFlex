@@ -1,0 +1,30 @@
+.container{
+display:flex ;/*normalmente se trabaja con al propiedad flex*/
+width: 60%;
+height: 60%;
+background-color: steelblue;
+flex-flow: row wrap;
+align-items: flex-end;
+gap: 10px;
+}
+/*flex-wrap: contenedor multilinea para que se desborde:
+contenedos con 3 items y 50% de ancho, wrap reverse, wrap y (nowrap es por defecto y que no desborde)
+flex flow nos ahorra flex direcction y wrap  ,flex-wrap:wrap; flex-direction: column;/*ordena los items en vertical por ser tipo colum*/*/
+.container div{
+    border: 1px solid black;
+    margin: 1px;
+    background-color: bisque;
+}
+.item-1{
+order: 2;
+flex-basis: 300px;/*felx basis no va a desbordar y se peuden dar muchos tamaños*/
+}
+.item-2{
+order: 3;
+height: 150px;
+flex-grow:1;
+
+}
+.item-3{
+order: 1;
+}

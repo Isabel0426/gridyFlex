@@ -1,0 +1,21 @@
+.container{
+    /*display: grid;
+    grid-template-columns:repeat(3,1fr);/*maneja las columnas*/
+    grid-template-rows:repeat(3,1fr);/*maneja las filas*/
+    gap:2px;
+    /*justify-content: start;cambia el contenido*/
+    /*justify-items: start;/*tambien el contenido
+    align-items: start;*/
+}/*repeat*/
+.container div{
+ background-color: red;
+ text-align: center;
+ color: rgb(247, 247, 255);
+}
+.box1{
+    grid-column:1/4;
+}
+.box2{
+    display: grid;
+   
+}
