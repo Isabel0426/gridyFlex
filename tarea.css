@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    background-color: crimson;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 11px;
+    color: azure;
+    height: 20px;
+}
+.container-2{
+    display: flex;
+    background-color: rgb(247, 236, 238);
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    color: rgb(245, 35, 217);
+    height: 20px;
+    grid-template-rows: 120px 70px;
+}.box4{
+    grid-column: 1/4;
+}
+.box3{
+    grid-column: 1/4;
+}
+.box4.1{
+    grid-column: 1/4;
+}
+
+.boxcontiene{
+    display: flex;
+    background-color: rgb(247, 236, 238);
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 12px;
+    color: rgb(245, 35, 217);
+}
